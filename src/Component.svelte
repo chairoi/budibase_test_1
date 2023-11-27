@@ -1,7 +1,7 @@
 <script>
   import { getContext } from "svelte"
 
-  export let text
+  export let text = "test1"
 
   const { styleable } = getContext("sdk")
   const component = getContext("component")
